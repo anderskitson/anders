@@ -1,0 +1,13 @@
+body{
+    background: url(img/gold.jpg);
+    background-size:cover;
+}
+
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+    padding:150px;
+}
+span{
+    color:goldenrod;
+}
