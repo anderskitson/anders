@@ -4,10 +4,16 @@ body{
 }
 
 h1{
-    color: darkgoldenrod;
+    color: black;
     text-align: center;
     padding:150px;
+    background: url(img/diamonds.jpg);
+    background-size:cover;
+    width: 200px;
+    margin: auto;
+    font-size:50px;
+    border:20px solid white;
 }
 span{
-    color:goldenrod;
+    color:black;
 }
