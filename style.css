@@ -16,4 +16,12 @@ h1{
 }
 span{
     color:black;
+    transition: ease-in-out 0.33s all;
+}
+
+span.rotate{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    display: inline-block;
 }
