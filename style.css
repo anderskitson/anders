@@ -14,16 +14,28 @@ h1{
     font-size:50px;
     border:20px solid white;
 }
+h2{
+  color:aqua;
+  font-size:24px;
+  font-family: fantasy;
+  position: absolute;
+  top:25px;
+  left:50px;
+  z-index: 1000;
+  width:300px;
+  /*text-decoration: underline;*/
+}
 span{
     color:black;
     transition: ease-in-out 0.33s all;
 }
 
 span.rotate{
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
     display: inline-block;
+    -webkit-animation-name: MOVE-YO;
+    -webkit-animation-duration: 0.33s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #jam{
@@ -33,6 +45,8 @@ span.rotate{
     top:0;
     width:400px;
     height:400px;
+    background-size:135%;
+    z-index: -10;
 }
 
 #dolphin{
@@ -59,5 +73,18 @@ span.rotate{
    }
    100% {
      background-position: left;
+   }
+}
+
+@-webkit-keyframes MOVE-YO {
+   0% {
+     -ms-transform: rotate(0deg); /* IE 9 */
+     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+     transform: rotate(0deg);
+   }
+   100% {
+     -ms-transform: rotate(360deg); /* IE 9 */
+     -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+     transform: rotate(360deg);
    }
 }
