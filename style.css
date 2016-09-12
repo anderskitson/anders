@@ -37,3 +37,16 @@ span.rotate{
     -o-transform: translateY(-300px);
     transform: translateY(-300px);
 }
+
+.guy{
+    display:block;
+    float:left;
+    width:100px;
+}
+
+#guyBody{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
