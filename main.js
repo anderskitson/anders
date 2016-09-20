@@ -3,4 +3,10 @@ $( document ).ready(function() {
        $("span").addClass("rotate");
     });
     $(".guy").draggable();
+    $("#menu").click(function(){
+       $(".hide").toggle();
+    });
+    $("#menu").click(function(){
+        $(".show").toggle();
+    });
 });

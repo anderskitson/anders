@@ -3,6 +3,22 @@ body{
     background-size:cover;
 }
 
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    border:blue 3px solid;
+}
+nav img{
+    width:60px;
+    height:auto;
+}
+
+.show{
+    display:none;
+}
+
 h1{
     color: black;
     text-align: center;
