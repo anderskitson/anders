@@ -18,21 +18,26 @@ $( document ).ready(function() {
         //
         // }
 
+        $("h1").toggleClass("swap");
+
+
 
     });
 
-    $(".imgSwap").click(function(){
-        // $("h1").css("background","url(img/anders.jpg");
-        $(this).addClass("imgShow");
-        $(this).removeClass("imgSwap");
-        console.log("test1");
 
-    });
-    $(".imgShow").click(function(){
-        // $("h1").css("background","url(img/diamonds.jpg");
-        $(this).addClass("imgSwap");
-        $(this).removeClass("imgShow");
-        console.log("test2");
 
-    });
+    // $(".imgSwap").click(function(){
+    //     // $("h1").css("background","url(img/anders.jpg");
+    //     $(this).addClass("imgShow");
+    //     $(this).removeClass("imgSwap");
+    //     console.log("test1");
+    //
+    // });
+    // $(".imgShow").click(function(){
+    //     // $("h1").css("background","url(img/diamonds.jpg");
+    //     $(this).addClass("imgSwap");
+    //     $(this).removeClass("imgShow");
+    //     console.log("test2");
+    //
+    // });
 });
